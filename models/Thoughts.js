@@ -16,7 +16,7 @@ const thoughtsSchema = new Schema({
     username:{
         type: String,    
     },
-    reactions: [{reactionSchema}]
+    reactions: [reactionSchema]
 });
 
 function format(date){
